@@ -60,7 +60,7 @@ cmd({
                     externalAdReply: {
                         title: "GOOGLE IMAGE SEARCH",
                         body: "Powered by EMOJI-XMD API",
-                        thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
+                        thumbnailUrl: "https://files.9b8c4ae7-3ffe-4efd-bf30-72b10f25b157.jpeg",
                         sourceUrl: "https://github.com/cutieemoji001",
                         mediaType: 1,
                         renderLargerThumbnail: true,
