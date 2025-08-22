@@ -40,7 +40,7 @@ async (conn, mek, m, { from, reply }) => {
 `.trim();
 
         await conn.sendMessage(from, {
-            image: { url: `https://files.` }, // you can change image
+            image: { url: `https://files.9b8c4ae7-3ffe-4efd-bf30-72b10f25b157.jpeg` }, // you can change image
             caption: formattedInfo,
             contextInfo: {
                 mentionedJid: [m.sender],
