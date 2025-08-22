@@ -42,7 +42,7 @@ cmd({
             message: {
                 contactMessage: {
                     displayName: 'IMAGE SEARCH ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD BOT\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:EMOJI-XMD BOT\nORG:EMOJI-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
@@ -55,13 +55,13 @@ cmd({
                 text: `🔍 *Image Search Results for:* ${query}\n\n` +
                       `📸 Found *${results.length}* images\n` +
                       `🖼️ Sending *${selectedImages.length}* random samples\n\n` +
-                      `> © Powered by  PK-XMD`,
+                      `> © Powered by  EMOJI-XMD`,
                 contextInfo: {
                     externalAdReply: {
                         title: "GOOGLE IMAGE SEARCH",
-                        body: "Powered by PK-DRILLER API",
-                        thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
-                        sourceUrl: "https://github.com/pkdriller",
+                        body: "Powered by EMOJI-XMD",
+                        thumbnailUrl: "https://files.9b8c4ae7-3ffe-4efd-bf30-72b10f25b157.jpeg",
+                        sourceUrl: "https://github.com/cutieemoji001",
                         mediaType: 1,
                         renderLargerThumbnail: true,
                         showAdAttribution: true
@@ -70,7 +70,7 @@ cmd({
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: "120363288304618280@newsletter",
-                        newsletterName: "PK-XMD Bot Updates",
+                        newsletterName: "EMOJI-XMD Bot Updates",
                         serverMessageId: Math.floor(Math.random() * 1000000).toString(),
                     }
                 }
@@ -84,7 +84,7 @@ cmd({
                 from,
                 { 
                     image: { url: imageUrl },
-                    caption: `📷 ${query}\n> © Powered by PK-DRILLER`,
+                    caption: `📷 ${query}\n> © Powered by EMOJI-XMD`,
                     contextInfo: {
                         stanzaId: contextMessage.key.id,
                         participant: '0@s.whatsapp.net'
