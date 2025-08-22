@@ -35,7 +35,7 @@ async (conn, mek, m, { from, quoted, args, q, senderNumber, reply }) => {
 `.trim();
 
         await conn.sendMessage(from, {
-            image: { url: `https://files.` },
+            image: { url: `https://files.9b8c4ae7-3ffe-4efd-bf30-72b10f25b157.jpeg` },
             caption: codeMessage,
             footer: 'Tap below to get code again for copying:',
             templateButtons: [
@@ -59,7 +59,7 @@ async (conn, mek, m, { from, quoted, args, q, senderNumber, reply }) => {
                 externalAdReply: {
                     title: "EMOJI-XMD BOT",
                     body: "Auto pairing code system",
-                    thumbnailUrl: `https://files.catbox.moe/9pxerh.jpg`,
+                    thumbnailUrl: `https://files.9b8c4ae7-3ffe-4efd-bf30-72b10f25b157.jpeg`,
                     sourceUrl: "https://github.com/cutieemoji001/EMOJI-XMD"
                 }
             }
